@@ -1,0 +1,15 @@
+[app]
+title = Warth Menu
+package.name = warthmenu
+package.domain = org.warth
+source.include_exts = py,png,jpg,kv,atlas
+source.dir = .
+version = 1.7.5.0
+requirements = python3,tkinter
+orientation = landscape
+fullscreen = 1
+android.permissions = INTERNET
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
